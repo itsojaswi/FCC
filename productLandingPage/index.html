@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProductLandingPage</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="main">
+      <header id="header">
+        <div>
+          <img id="header-img" src="logo.jpg" alt="logo of a trombones" />
+        </div>
+        <nav id="nav-bar">
+          <ul>
+            <li class="link"><a class="nav-link" href="#home">Home</a></li>
+            <li class="link">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="link">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="link">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container">
+        <section id="home">
+          <h1>Believe in technology, make the changes</h1>
+          <h2>Lorem, ipsum.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
+            maiores totam voluptas tenetur! Adipisci nam at dolores commodi fuga
+            consequatur fugiat sed hic optio molestias eligendi eum eos natus
+            vero rerum cum saepe ex modi assumenda reprehenderit, voluptatum
+            soluta molestiae laboriosam impedit! Ad repudiandae exercitationem
+            dolor fugit libero! Delectus, aspernatur?
+          </p>
+        </section>
+      </div>
+
+      <div class="container">
+        <section id="about">
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/CunjFcX8hJ8?si=CrDhXEGPoL3-_VNd"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </section>
+      </div>
+
+      <div class="container">
+        <section id="services">
+          <div class="box">
+            <div>
+              <ion-icon name="bus-outline"></ion-icon>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Pariatur nihil labore repudiandae perspiciatis ea necessitatibus
+                quae recusandae, ab velit harum consequatur odio laboriosam
+                aliquid totam nemo molestias, nobis incidunt assumenda.
+              </p>
+            </div>
+            <div>
+              <ion-icon name="checkmark-done-outline"></ion-icon>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo
+                alias laudantium totam dignissimos? Ut, nulla vel nemo accusamus
+                repudiandae odit repellat id minima dolorem nesciunt vero,
+                veniam iure rerum quisquam.
+              </p>
+            </div>
+            <div>
+              <ion-icon name="happy-outline"></ion-icon>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae aliquam, beatae omnis voluptatem assumenda neque nam
+                quam magni dignissimos doloribus eligendi animi perferendis
+                itaque obcaecati. Porro nam quis sint officiis.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="container">
+        <section id="contact">
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <div class="form-group">
+              <input
+                class="input"
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email address"
+              />
+            </div>
+            <div class="form-group">
+              <input
+                id="submit"
+                class="btn"
+                type="Submit"
+                value="Get Started"
+              />
+            </div>
+          </form>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
